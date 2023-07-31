@@ -29,6 +29,11 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "D:/Softwares/VS2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeMinGWFindMake.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "D:/Softwares/VS2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
 		},
 		{

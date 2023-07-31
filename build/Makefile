@@ -66,8 +66,8 @@ CMAKE_BINARY_DIR = "D:\OneDrive - email.szu.edu.cn\Codes\Github insiders\Example
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	C:\Users\Wendo\.vcpkg\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.25.2\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	D:\Softwares\VS2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -140,6 +140,21 @@ Project: cmake_check_build_system
 Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/build
 .PHONY : Project/fast
+
+# target to build an object file
+D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.o
+.PHONY : D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.o
+
+# target to preprocess a source file
+D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.i
+.PHONY : D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.i
+
+# target to generate assembly for a file
+D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.s
+.PHONY : D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.s
 
 # target to build an object file
 D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/Key.o:
@@ -621,6 +636,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... database
 	@echo ... Project
+	@echo ... D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.o
+	@echo ... D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.i
+	@echo ... D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.s
 	@echo ... D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/Key.o
 	@echo ... D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/Key.i
 	@echo ... D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/Key.s

@@ -32,6 +32,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Softwares/VS2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
   "D:/Softwares/VS2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
   "D:/Softwares/VS2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+  "D:/Softwares/VS2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeMinGWFindMake.cmake"
   "D:/Softwares/VS2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake"
   "D:/Softwares/VS2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake"
   "D:/Softwares/VS2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake"
