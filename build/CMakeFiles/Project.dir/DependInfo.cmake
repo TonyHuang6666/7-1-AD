@@ -23,6 +23,7 @@ set(CMAKE_AS_ARM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Hardware/AD.c" "CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.o" "gcc" "CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/AD.o.d"
   "D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Hardware/Key.c" "CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/Key.o" "gcc" "CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/Key.o.d"
   "D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Hardware/LED.c" "CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/LED.o" "gcc" "CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/LED.o.d"
   "D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Hardware/OLED.c" "CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/OLED.o" "gcc" "CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-1_AD/Hardware/OLED.o.d"
